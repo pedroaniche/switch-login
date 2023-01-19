@@ -1,0 +1,57 @@
+.container {
+    margin: 50px 200px;
+}
+
+
+.tabs {
+    display: flex;
+}
+
+.tabs button {
+    background-color: #e1e1e1;
+    border: 2px solid rgb(3, 3, 33);
+    color: rgb(3, 3, 33);
+    cursor: pointer;
+    flex-grow: 1;
+    font-size: 1.25rem;
+    font-weight: bold;
+    outline: none;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+
+.contents {
+    border: 2px solid rgb(3, 3, 33);
+    min-height: 300px;
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form input {
+    padding: 10px;
+    border: 2px solid rgb(3, 3, 33);
+}
+
+.form button {
+    padding: 10px;
+    background-color: rgb(3, 3, 33);
+    border: none;
+    outline: none;
+    color: #e1e1e1;
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
+.tabs .active {
+    background-color: rgb(3, 3, 33);
+    color: #e1e1e1;
+}
